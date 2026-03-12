@@ -55,23 +55,5 @@ fedpc-benchmark/
 └── README.md
 ```
 
-## Installation
-Clone the repository:
-```bash
-git clone https://github.com/yourusername/fedpc-benchmark.git
-cd fedpc-benchmark
-```
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## Running Experiments
-Run the benchmark experiment:
-```bash
-python experiments/run_experiment.py
-```
-Generated plots and evaluation results will be stored in the `results/` directory.
-
 ## Reproducibility
 This repository aims to provide a **fully reproducible benchmark** for federated causal discovery research. All experiments are designed to run with controlled synthetic settings to ensure consistent evaluation across different configurations.
