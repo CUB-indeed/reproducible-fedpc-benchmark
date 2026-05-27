@@ -57,3 +57,8 @@ fedpc-benchmark/
 
 ## Reproducibility
 This repository aims to provide a **fully reproducible benchmark** for federated causal discovery research. All experiments are designed to run with controlled synthetic settings to ensure consistent evaluation across different configurations.
+
+🧑‍💻 Author
+Name: Widyasmoro Priatmojo
+Role: PhD Student
+Focus: Federated, Causal AI, Sustainability
