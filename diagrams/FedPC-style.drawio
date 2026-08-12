@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Architecture" id="5L23dscaOcHXqyVDsDNR">
+    <mxGraphModel dx="1022" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G_dY6Wmy1aP4ZJ3fuXQB-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="490" x="150" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="G_dY6Wmy1aP4ZJ3fuXQB-2" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" value="Controlled synthetic benchmark environment" vertex="1">
+          <mxGeometry height="80" width="90" x="50" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="G_dY6Wmy1aP4ZJ3fuXQB-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="490" x="150" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="G_dY6Wmy1aP4ZJ3fuXQB-5" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" value="Client-side local estimation" vertex="1">
+          <mxGeometry height="70" width="90" x="50" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="G_dY6Wmy1aP4ZJ3fuXQB-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="490" x="150" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="G_dY6Wmy1aP4ZJ3fuXQB-7" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" value="Reliability-aware Federated server" vertex="1">
+          <mxGeometry height="60" width="100" x="50" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="G_dY6Wmy1aP4ZJ3fuXQB-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="490" x="150" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="G_dY6Wmy1aP4ZJ3fuXQB-9" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" value="Causal orientation module" vertex="1">
+          <mxGeometry height="60" width="90" x="50" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="n2SIWBU69rE8hePrz0RB-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="140" width="490" x="150" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n2SIWBU69rE8hePrz0RB-7" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" value="Benchmark evaluation and comparison" vertex="1">
+          <mxGeometry height="80" width="80" x="50" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n2SIWBU69rE8hePrz0RB-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=50;" value="..." vertex="1">
+          <mxGeometry height="30" width="60" x="505" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="5OakvawiBOrV774LdsUR-31" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;align=center;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;proposed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="160" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="5OakvawiBOrV774LdsUR-32" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;align=center;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ablation&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="255" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="5OakvawiBOrV774LdsUR-33" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;align=center;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Baseline&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="355" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="5OakvawiBOrV774LdsUR-34" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;align=center;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Baseline&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="455" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="5OakvawiBOrV774LdsUR-35" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;align=center;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Baseline&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="550" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="JwcBa3y379p6X1YEy45N-1" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.63;dx=19.56;direction=north;notch=0;fillColor=#000000;strokeColor=default;" value="" vertex="1">
+          <mxGeometry height="30" width="90" x="350" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JwcBa3y379p6X1YEy45N-3" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.63;dx=19.56;direction=north;notch=0;fillColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="90" x="350" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="JwcBa3y379p6X1YEy45N-4" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.63;dx=19.56;direction=north;notch=0;fillColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="90" x="350" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="JwcBa3y379p6X1YEy45N-5" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.63;dx=19.56;direction=north;notch=0;fillColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="90" x="350" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-6" parent="1" style="whiteSpace=wrap;html=1;" value="Local-only" vertex="1">
+          <mxGeometry height="44" width="80" x="550" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-9" parent="1" style="whiteSpace=wrap;html=1;" value="FedPC-Naive majority" vertex="1">
+          <mxGeometry height="44" width="80" x="455" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-10" parent="1" style="whiteSpace=wrap;html=1;" value="Centralized PC" vertex="1">
+          <mxGeometry height="44" width="80" x="355" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-11" parent="1" style="whiteSpace=wrap;html=1;" value="FedPC-oracle" vertex="1">
+          <mxGeometry height="44" width="80" x="255" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-13" parent="1" style="whiteSpace=wrap;html=1;" value="FedPC-consensus" vertex="1">
+          <mxGeometry height="44" width="80" x="160" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-14" parent="1" style="whiteSpace=wrap;html=1;" value="Wilcoxon significance test" vertex="1">
+          <mxGeometry height="50" width="70" x="560" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-15" parent="1" style="whiteSpace=wrap;html=1;" value="Runtime" vertex="1">
+          <mxGeometry height="50" width="70" x="480" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-16" parent="1" style="whiteSpace=wrap;html=1;" value="Comm. cost" vertex="1">
+          <mxGeometry height="50" width="70" x="400" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-17" parent="1" style="whiteSpace=wrap;html=1;" value="Orientation precision / recall / F1" vertex="1">
+          <mxGeometry height="50" width="70" x="320" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-18" parent="1" style="whiteSpace=wrap;html=1;" value="Skeleton precision / recall / F1" vertex="1">
+          <mxGeometry height="50" width="70" x="240" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-19" parent="1" style="whiteSpace=wrap;html=1;" value="SHD" vertex="1">
+          <mxGeometry height="50" width="70" x="160" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-20" parent="1" style="whiteSpace=wrap;html=1;" value="Final global CPDAG" vertex="1">
+          <mxGeometry height="60" width="110" x="520" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-21" parent="1" style="whiteSpace=wrap;html=1;" value="Meek rule propagation (R1-R4)" vertex="1">
+          <mxGeometry height="60" width="110" x="400" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-22" parent="1" style="whiteSpace=wrap;html=1;" value="CPDAG construction" vertex="1">
+          <mxGeometry height="60" width="110" x="280" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-23" parent="1" style="whiteSpace=wrap;html=1;" value="V-structure detection" vertex="1">
+          <mxGeometry height="60" width="110" x="160" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-24" parent="1" style="whiteSpace=wrap;html=1;" value="Agg. skeleton and agg. sepset" vertex="1">
+          <mxGeometry height="60" width="110" x="520" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-25" parent="1" style="whiteSpace=wrap;html=1;" value="Weighted skeleton agg. and weighted sepset agg." vertex="1">
+          <mxGeometry height="60" width="110" x="400" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-26" parent="1" style="whiteSpace=wrap;html=1;" value="Client weight computation" vertex="1">
+          <mxGeometry height="60" width="110" x="280" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-27" parent="1" style="whiteSpace=wrap;html=1;" value="Consensus reliability estimation (mean Jaccard similarity)" vertex="1">
+          <mxGeometry height="60" width="110" x="160" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-28" parent="1" style="whiteSpace=wrap;html=1;" value="Client &lt;i&gt;K&lt;/i&gt;" vertex="1">
+          <mxGeometry height="80" width="70" x="560" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-29" parent="1" style="whiteSpace=wrap;html=1;" value="Client 2" vertex="1">
+          <mxGeometry height="80" width="70" x="440" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-30" parent="1" style="whiteSpace=wrap;html=1;" value="Client 1" vertex="1">
+          <mxGeometry height="80" width="70" x="360" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-32" parent="1" style="whiteSpace=wrap;html=1;" value="Local PC skeleton discovery" vertex="1">
+          <mxGeometry height="20" width="190" x="160" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-33" parent="1" style="whiteSpace=wrap;html=1;" value="Local CI testing" vertex="1">
+          <mxGeometry height="20" width="190" x="160" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-34" parent="1" style="whiteSpace=wrap;html=1;" value="Local sepset extraction" vertex="1">
+          <mxGeometry height="20" width="190" x="160" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-35" parent="1" style="whiteSpace=wrap;html=1;" value="Federared dataset constructor" vertex="1">
+          <mxGeometry height="60" width="90" x="540" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-37" parent="1" style="whiteSpace=wrap;html=1;" value="Heterogeneity / Mechanism shift module" vertex="1">
+          <mxGeometry height="60" width="80" x="450" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-38" parent="1" style="whiteSpace=wrap;html=1;" value="Linear Gaussian SEM simulator" vertex="1">
+          <mxGeometry height="60" width="90" x="350" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-39" parent="1" style="whiteSpace=wrap;html=1;" value="Structural coefficient generator" vertex="1">
+          <mxGeometry height="60" width="80" x="260" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="yOzS0eEwVbd80gGdqhMW-40" parent="1" style="whiteSpace=wrap;html=1;" value="DAG generator" vertex="1">
+          <mxGeometry height="60" width="90" x="160" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Workflow" id="IOd2NlNyp1ufUMtIWUdH">
+    <mxGraphModel dx="1039" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-1" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="272.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-3" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="J-jlwjF-cpfuDGUR5pWI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Generate ground-truth causal graph" vertex="1">
+          <mxGeometry height="60" width="140" x="130" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="317.5" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="317.5" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-7" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="330" />
+              <mxPoint x="295" y="340" />
+              <mxPoint x="413" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-8" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="295" />
+              <mxPoint x="525" y="725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-9" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="J-jlwjF-cpfuDGUR5pWI-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="340" />
+              <mxPoint x="200" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Experiment configuration&lt;br&gt;&lt;pre&gt;&lt;span class=&quot;katex&quot;&gt;&lt;i&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;mpunct&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;mpunct&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;mpunct&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;ϕ&lt;/span&gt;&lt;span class=&quot;mpunct&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;α&lt;/span&gt;&lt;span class=&quot;mpunct&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;ℓ&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot;&gt;&lt;span class=&quot;pstrut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mop mtight&quot;&gt;&lt;span class=&quot;mtight&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;mtight&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;mtight&quot;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mpunct&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;τ&lt;/span&gt;&lt;/i&gt;&lt;/span&gt;, &lt;br&gt;heterogeneity regime&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="70" width="275" x="165" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-11" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-12" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="475" />
+              <mxPoint x="90" y="900" />
+              <mxPoint x="555" y="900" />
+              <mxPoint x="555" y="720" />
+            </Array>
+            <mxPoint x="125" y="444" as="sourcePoint" />
+            <mxPoint x="575" y="689" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="True DAG &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;mi&gt;G&lt;/mi&gt;&lt;/mrow&gt;G&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;, &lt;br&gt;coefficient matrix &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;/mrow&gt;B&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;div&gt;true skeleton &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/mrow&gt;E_{true}&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;directions &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/mrow&gt;E_{dir}&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="170" x="115" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-14" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="J-jlwjF-cpfuDGUR5pWI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Simulate observational data with SEM" vertex="1">
+          <mxGeometry height="60" width="140" x="130" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-16" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="J-jlwjF-cpfuDGUR5pWI-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist-s&quot;&gt;Synthetic observations​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="170" x="115" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Construct federated datasets" vertex="1">
+          <mxGeometry height="60" width="140" x="130" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-19" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="880" />
+              <mxPoint x="315" y="880" />
+              <mxPoint x="315" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="837.5" />
+              <mxPoint x="185" y="887.5" />
+              <mxPoint x="545" y="887.5" />
+              <mxPoint x="545" y="657.5" />
+              <mxPoint x="555" y="657.5" />
+              <mxPoint x="555" y="530.5" />
+            </Array>
+            <mxPoint x="200" y="837.4999999999998" as="sourcePoint" />
+            <mxPoint x="572.5" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-21" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist-s&quot;&gt;Local dataset&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;per client local&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dataset&lt;/span&gt;&lt;div&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist-s&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;X&lt;/mi&gt;&lt;mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;/mrow&gt;X^{(k)}&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp; and&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist-s&quot;&gt;conceptual pooled dataset&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist-s&quot;&gt;for centralized baseline only&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="197.5" x="101.25" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-22" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Perform local PC skeleton discovery" vertex="1">
+          <mxGeometry height="60" width="140" x="342.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-24" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="J-jlwjF-cpfuDGUR5pWI-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-25" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="J-jlwjF-cpfuDGUR5pWI-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-26" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="475" />
+              <mxPoint x="505" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-27" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="515" y="475" />
+              <mxPoint x="515" y="650" />
+              <mxPoint x="545" y="650" />
+              <mxPoint x="545" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-28" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Local skeleton &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mo&gt;^&lt;/mo&gt;&lt;/mover&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;\hat E_k&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;div&gt;Local Sepsets &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msubsup&gt;&lt;mi&gt;Z&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/msubsup&gt;&lt;/mrow&gt;Z_{ij}^{(k)}&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="172.5" x="326.25" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-62" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="J-jlwjF-cpfuDGUR5pWI-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Consensus reliability estimation (pairwise Jaccard similarity)" vertex="1">
+          <mxGeometry height="60" width="140" x="342.5" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-33" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="J-jlwjF-cpfuDGUR5pWI-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Weighted skeleton and sepset agg." vertex="1">
+          <mxGeometry height="60" width="140" x="342.5" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-35" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" target="J-jlwjF-cpfuDGUR5pWI-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="840" />
+              <mxPoint x="535" y="840" />
+              <mxPoint x="535" y="332" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-36" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msubsup&gt;&lt;mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Global skeleton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;katex&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mo&gt;^&lt;/mo&gt;&lt;/mover&gt;&lt;mrow&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;Weighted sepset agg.&lt;/span&gt;&lt;span class=&quot;katex&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mi&gt;Z&lt;/mi&gt;&lt;mo&gt;ˉ&lt;/mo&gt;&lt;/mover&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/math&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;w_k&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/mo&gt;&lt;/mrow&gt;&lt;/msubsup&gt;&lt;/mrow&gt;Z_{ij}^{(k)}&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="182.5" x="321.25" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-37" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CPDAG recovery" vertex="1">
+          <mxGeometry height="60" width="140" x="555" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-60" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="J-jlwjF-cpfuDGUR5pWI-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-40" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Final&lt;/div&gt;CPDAG&amp;nbsp;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mi&gt;G&lt;/mi&gt;&lt;mo&gt;^&lt;/mo&gt;&lt;/mover&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="555" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-41" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Run comparison baselines: Centralized PC, Naive aggregation,&amp;nbsp;&lt;div&gt;local-only, FedÜC-oracle, fedPC-consensus&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="107.5" x="572.5" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-43" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-44" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Baseline graphs&amp;nbsp;&lt;div&gt;and metrics&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="117.5" x="562.5" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-45" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Evaluate and compare results (SHD, F1, Orient_F1, comm, runtime, wilcoxon rank test)" vertex="1">
+          <mxGeometry height="80" width="120" x="570" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-47" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="415" />
+              <mxPoint x="710" y="720" />
+              <mxPoint x="691" y="720" />
+            </Array>
+            <mxPoint x="691" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-48" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="J-jlwjF-cpfuDGUR5pWI-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-49" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Comparative benchmark results" vertex="1">
+          <mxGeometry height="70" width="126.25" x="569.3699999999999" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-50" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="602.5" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-51" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="1" vertex="1">
+          <mxGeometry height="30" width="30" x="250" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-52" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="2" vertex="1">
+          <mxGeometry height="30" width="30" x="250" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-53" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="3" vertex="1">
+          <mxGeometry height="30" width="30" x="250" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-54" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="4" vertex="1">
+          <mxGeometry height="30" width="30" x="458.75" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-55" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="5" vertex="1">
+          <mxGeometry height="30" width="30" x="469.75" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-56" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="6" vertex="1">
+          <mxGeometry height="30" width="30" x="468.75" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-57" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="7" vertex="1">
+          <mxGeometry height="30" width="30" x="680" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-58" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="8" vertex="1">
+          <mxGeometry height="30" width="30" x="660" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-59" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="9" vertex="1">
+          <mxGeometry height="30" width="30" x="670" y="664" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-63" edge="1" parent="1" source="J-jlwjF-cpfuDGUR5pWI-61" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="J-jlwjF-cpfuDGUR5pWI-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-jlwjF-cpfuDGUR5pWI-61" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Consensus score&amp;nbsp;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;mo&gt;&lt;br&gt;&lt;/mo&gt;&lt;/mover&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;and reliability weight&amp;nbsp;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;msubsup&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mi&gt;&lt;br&gt;&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;&lt;br&gt;&lt;/mo&gt;&lt;/mrow&gt;&lt;/msubsup&gt;&lt;/mrow&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="172.5" x="326.25" y="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
