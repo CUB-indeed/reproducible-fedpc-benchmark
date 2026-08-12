@@ -58,7 +58,7 @@ A factorial ablation (equal/consensus skeleton weighting × none/equal/consensus
 
 ## Repository Structure
 
-```text
+```
 fedpc-benchmark/
 ├── 7681811/                             # Sachs dataset
 ├── results/                             # Experimental outputs, raw per-run CSVs, and plots
