@@ -1,88 +1,97 @@
 # FedPC-Style Benchmark Framework
 
-A reproducible benchmarking framework for evaluating federated constraint-based causal discovery using a FedPC-style pipeline under controlled synthetic data scenarios.
+A reproducible benchmark for aggregation strategies in federated constraint-based causal discovery, using a FedPC-style pipeline under controlled synthetic and real-world (Sachs) data scenarios.
 
 ## Overview
 
 Reliable causal discovery in federated environments remains challenging due to privacy constraints, heterogeneous client data, fragmented statistical evidence, and the difficulty of aggregating local causal structures without sharing raw data.
 
-This repository provides a Python-based **FedPC-style benchmarking framework** for systematic evaluation of federated causal discovery. Rather than proposing a fundamentally new causal discovery algorithm, the framework offers a modular and reproducible experimental pipeline for studying how different components of a PC-based federated workflow contribute to structural recovery.
+This repository provides a Python-based **FedPC-style benchmarking framework**, scoped as a **controlled aggregation-ablation study within a single PC-based pipeline** — not a general benchmark of state-of-the-art federated causal discovery algorithms, and not a proposal of a new causal discovery algorithm. It isolates, through factorial ablation, how skeleton weighting and separation-set (Sepset) aggregation each contribute to structural and orientation recovery under federated conditions.
 
-The framework combines synthetic DAG generation, federated data partitioning, client-side conditional independence (CI) testing, server-side aggregation of structural summaries, and CPDAG reconstruction using standard orientation rules. It enables controlled benchmarking under varying federation settings while preserving the assumption that raw data remain local.
+The framework combines synthetic DAG generation, federated data partitioning, client-side conditional independence (CI) testing, server-side aggregation of structural summaries, and CPDAG reconstruction using standard v-structure and Meek orientation rules, while raw data remain local at all times.
 
 ## Key Features
 
 - Modular FedPC-style constraint-based causal discovery pipeline.
 - Synthetic DAG-based data generation using linear-Gaussian SEMs.
 - Controlled federated data partitioning.
-- Configurable client heterogeneity simulation.
-- Variance-based perturbations.
-- Optional mechanism-shift scenarios.
+- Configurable client heterogeneity: homogeneous, mild noise, strong noise, and structural mechanism-shift regimes.
 - Client-side conditional independence testing.
-- Server-side skeleton and separation-set aggregation.
-- CPDAG reconstruction using v-structure identification and Meek orientation rules.
-- Reproducible benchmark evaluation framework.
+- Server-side skeleton and separation-set aggregation, with a ground-truth-free consensus reliability mechanism (pairwise Jaccard similarity).
+- CPDAG reconstruction using v-structure identification restricted to unshielded triples, followed by Meek rules R1–R4.
+- Factorial ablation isolating skeleton-weighting from Sepset-aggregation effects.
+- Real-world validation on the Sachs protein-signaling dataset, including a per-condition breakdown across all 16 experimental conditions.
+- Reproducible statistical validation: paired/one-sample Wilcoxon signed-rank tests, matched-pairs rank-biserial correlation, and Holm-corrected significance across 16 scenarios.
 
 ## Evaluation Metrics
 
-The framework supports evaluation of multiple aspects including:
-
 - Structural Hamming Distance (SHD).
 - Skeleton precision, recall, and F1-score.
-- Orientation precision, recall, and F1-score.
-- Runtime.
-- Communication cost.
-- Scalability across federated clients.
-- Stability under repeated experiments.
+- Directional precision, recall, and F1-score (computed only on explicitly oriented CPDAG edges; undirected edges are excluded).
+- Runtime (simulated per-client CPU time, sequential single-VM execution — not parallel wall-clock latency).
+- Communication cost (bytes, based on skeleton indicators and Sepset payload).
+- Scalability across federated clients and graph dimensionality.
+- Stability under repeated experiments (20 repetitions per configuration).
 
 ## Experimental Settings
 
 The benchmark enables systematic evaluation under controlled synthetic settings by varying:
 
-- Number of federated clients.
-- Sample size per client.
-- Graph density.
-- Graph topology.
-- Conditioning depth.
-- Distributional heterogeneity.
-- Aggregation strategy.
-
-These controlled configurations make it possible to analyze how decentralized data, sample fragmentation, and client heterogeneity influence different stages of the causal discovery pipeline.
+- Number of federated clients (K).
+- Sample size (N).
+- Graph density (φ) and dimensionality (p).
+- Conditioning depth (ℓ_max).
+- Distributional heterogeneity, including client-specific structural mechanism-shift.
+- Aggregation threshold (τ) and weighting scheme (equal vs. consensus).
 
 ## Benchmark Scope
 
-The framework focuses on benchmarking and component-wise analysis rather than proposing a new causal discovery algorithm.
+The framework focuses on **benchmarking and component-wise ablation**, not on proposing a new causal discovery algorithm. The implemented baselines are:
 
-The implemented pipeline includes:
+- **Centralized PC** — reference upper bound using pooled data.
+- **Local PC** — no collaboration between clients.
+- **FedPC-Naive** — equal-weight skeleton voting, no Sepset aggregation.
+- **FedPC-Consensus** (proposed, practical) — ground-truth-free consensus reliability weighting for skeleton and Sepset aggregation.
+- **FedPC-Oracle** — ground-truth-informed weighting, included **solely as a synthetic upper-bound diagnostic reference**, not a deployable method.
 
-- Local PC-style skeleton estimation.
-- Separation-set aggregation.
-- Consensus-based structural aggregation.
-- CPDAG reconstruction.
-- Oracle-weighted aggregation (synthetic upper-bound reference only).
-
-The oracle weighting strategy is included solely for controlled synthetic experiments to estimate the theoretical upper bound of aggregation performance. It is not intended for deployment in practical federated environments, where ground-truth causal graphs are unavailable.
+A factorial ablation (equal/consensus skeleton weighting × none/equal/consensus Sepset aggregation) shows that orientation improvement over FedPC-Naive is attributable to **Sepset aggregation**, not to the consensus weighting scheme itself; consensus weighting is evaluated as a coarse client-reliability filter (effective at down-weighting corrupted clients) rather than as a source of measurable accuracy gain in the tested configurations.
 
 ## Repository Structure
 
 ```text
 fedpc-benchmark/
-│
-├── src/                # Core implementation of the FedPC-style framework
-├── experiments/        # Benchmark experiment scripts
-├── data/               # Synthetic data generation
-├── results/            # Experimental outputs and plots
-├── requirements.txt    # Python dependencies
-└── README.md
+├── 7681811/                             # Sachs dataset
+├── results/                             # Experimental outputs, raw per-run CSVs, and plots
+├── diagrams/
+│   ├── fedpc_architecture.drawio
+│   ├── fedpc_workflow.png
+│   └── fedpc_architecture.png
+├── run_and_log.py                       # runtime
+└── FedPC-style.py                       # Core implementation of the FedPC-style framework
 ```
+
 
 ## Reproducibility
 
-This repository is designed to provide a fully reproducible benchmark for federated constraint-based causal discovery.
+All synthetic experiments use fixed random seeds (`SEED = 42`) with 20 repeated runs (`REPS = 20`) per configuration. Sachs experiments use 10 random client-partition seeds per condition. Raw per-run CSVs, aggregated summary tables, and figures are generated directly from the experimental pipeline.
 
-The framework uses controlled synthetic linear-Gaussian SEMs, configurable federation settings, and modular evaluation components to enable consistent comparison across different aggregation strategies and experimental configurations.
+The implementation is a research benchmarking platform, not a production-ready or formally privacy-preserving system: only structural summaries (skeletons and Sepsets) are exchanged between clients and server, and no secure aggregation or differential privacy mechanism is implemented. Client-side computation is currently simulated sequentially on a single machine; reported runtime reflects summed simulated CPU time rather than parallel deployment latency.
 
-The implementation is intended as a research benchmarking platform and does not include production-oriented privacy mechanisms such as secure aggregation or differential privacy.
+## Running Experiments
+
+All experiments should be executed via `run_and_log.py`, which wraps the pipeline 
+and logs runtime, configuration, and seed information for reproducibility:
+
+    python run_and_log.py --config <config_name>
+
+Direct execution of `FedPC-style.py` without this wrapper will skip runtime logging 
+and is not recommended for reproducing reported results.
+
+## Limitations
+
+- Restricted to linear-Gaussian SEMs under causal sufficiency (horizontal federation only).
+- Validated on one real-world dataset (Sachs); generalization to domains with naturally defined client structure is untested.
+- Does not include a head-to-head comparison against contemporary federated causal discovery methods (e.g., FedCDH, FedCSL, FedECD), which differ in local discovery procedure and evaluation protocol.
 
 ## Author
 
