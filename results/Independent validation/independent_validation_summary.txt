@@ -1,0 +1,14 @@
+=== Independent validation of FedPC's from-scratch PC implementation ===
+Reference: causal-learn PC algorithm, Fisher-Z CI test, stable=True
+
+--- main_sweep  (n=100 configs) ---
+Skeleton exact match:      98/100  (mean Jaccard=0.9986)
+Directed-edge exact match: 87/100  (mean Jaccard=0.9193)
+Sepset exact-match rate (edges both remove): 4165/4431 (0.9400)
+Empty-Sepset (marginal-independence) agreement: 3663/3663 (1.0000)
+
+--- sparse_empty_sepset_stress  (n=30 configs) ---
+Skeleton exact match:      30/30  (mean Jaccard=1.0000)
+Directed-edge exact match: 27/30  (mean Jaccard=0.9244)
+Sepset exact-match rate (edges both remove): 1268/1279 (0.9914)
+Empty-Sepset (marginal-independence) agreement: 1230/1230 (1.0000)
