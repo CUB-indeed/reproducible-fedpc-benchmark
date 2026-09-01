@@ -1,4 +1,4 @@
-# FedPC-Style Benchmark Framework
+# FedPC-Style Benchmark Framework (Not yet updated)
 
 A reproducible benchmark for aggregation strategies in federated constraint-based causal discovery, using a FedPC-style pipeline under controlled synthetic and real-world (Sachs) data scenarios.
 
