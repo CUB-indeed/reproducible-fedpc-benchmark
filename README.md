@@ -4,7 +4,7 @@ Simulation and validation codebase for **FedPC**, a federated adaptation of the
 PC algorithm that aggregates per-client separating sets (Sepsets) under
 weighted voting, rather than aggregating adjacency votes alone.
 
-**Author:** Widyasmoro Priatmojo, PhD
+**Author:** Widyasmoro Priatmojo
 
 ---
 
