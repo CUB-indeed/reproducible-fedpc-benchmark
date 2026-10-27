@@ -447,4 +447,4 @@ project/
 
 ## Citation
 
-If you use this code, please cite the associated paper (details to be added on publication).
+Priatmojo, W., Bleze, M., Milisavljevic, M., Samandari, A., Mongelli, M., & Wicaksono, H. (2026). Reproducible benchmarking of Aggregation Strategies for Federated Constraint-Based Causal Discovery: a systematic study of a FedPC-style pipeline under controlled synthetic data scenarios. Expert Systems with Applications, 134767.
